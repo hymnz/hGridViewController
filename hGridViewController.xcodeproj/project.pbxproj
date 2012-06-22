@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B275B42A15949BAC0018A054 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B275B42915949BAC0018A054 /* UIKit.framework */; };
+		B275B42C15949BAC0018A054 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B275B42B15949BAC0018A054 /* Foundation.framework */; };
+		B275B42E15949BAC0018A054 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B275B42D15949BAC0018A054 /* CoreGraphics.framework */; };
+		B275B43415949BAC0018A054 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B275B43215949BAC0018A054 /* InfoPlist.strings */; };
+		B275B43615949BAC0018A054 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B275B43515949BAC0018A054 /* main.m */; };
+		B275B43A15949BAC0018A054 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B275B43915949BAC0018A054 /* AppDelegate.m */; };
+		B275B43D15949BAC0018A054 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B275B43B15949BAC0018A054 /* MainStoryboard.storyboard */; };
+		B275B44015949BAC0018A054 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B275B43F15949BAC0018A054 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B275B42515949BAC0018A054 /* hGridViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hGridViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B275B42915949BAC0018A054 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B275B42B15949BAC0018A054 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B275B42D15949BAC0018A054 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B275B43115949BAC0018A054 /* hGridViewController-Info.plist */ = {isa = PBXFileReference; path = "hGridViewController-Info.plist"; sourceTree = "<group>"; };
+		B275B43315949BAC0018A054 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B275B43515949BAC0018A054 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B275B43715949BAC0018A054 /* hGridViewController-Prefix.pch */ = {isa = PBXFileReference; path = "hGridViewController-Prefix.pch"; sourceTree = "<group>"; };
+		B275B43815949BAC0018A054 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B275B43915949BAC0018A054 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B275B43C15949BAC0018A054 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B275B43E15949BAC0018A054 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		B275B43F15949BAC0018A054 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B275B42215949BAC0018A054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B275B42A15949BAC0018A054 /* UIKit.framework in Frameworks */,
+				B275B42C15949BAC0018A054 /* Foundation.framework in Frameworks */,
+				B275B42E15949BAC0018A054 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B275B41A15949BAC0018A054 = {
+			isa = PBXGroup;
+			children = (
+				B275B42F15949BAC0018A054 /* hGridViewController */,
+				B275B42815949BAC0018A054 /* Frameworks */,
+				B275B42615949BAC0018A054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B275B42615949BAC0018A054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B275B42515949BAC0018A054 /* hGridViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B275B42815949BAC0018A054 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B275B42915949BAC0018A054 /* UIKit.framework */,
+				B275B42B15949BAC0018A054 /* Foundation.framework */,
+				B275B42D15949BAC0018A054 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B275B42F15949BAC0018A054 /* hGridViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B275B43815949BAC0018A054 /* AppDelegate.h */,
+				B275B43915949BAC0018A054 /* AppDelegate.m */,
+				B275B43B15949BAC0018A054 /* MainStoryboard.storyboard */,
+				B275B43E15949BAC0018A054 /* ViewController.h */,
+				B275B43F15949BAC0018A054 /* ViewController.m */,
+				B275B43015949BAC0018A054 /* Supporting Files */,
+			);
+			path = hGridViewController;
+			sourceTree = "<group>";
+		};
+		B275B43015949BAC0018A054 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B275B43115949BAC0018A054 /* hGridViewController-Info.plist */,
+				B275B43215949BAC0018A054 /* InfoPlist.strings */,
+				B275B43515949BAC0018A054 /* main.m */,
+				B275B43715949BAC0018A054 /* hGridViewController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B275B42415949BAC0018A054 /* hGridViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B275B44315949BAC0018A054 /* Build configuration list for PBXNativeTarget "hGridViewController" */;
+			buildPhases = (
+				B275B42115949BAC0018A054 /* Sources */,
+				B275B42215949BAC0018A054 /* Frameworks */,
+				B275B42315949BAC0018A054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hGridViewController;
+			productName = hGridViewController;
+			productReference = B275B42515949BAC0018A054 /* hGridViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B275B41C15949BAC0018A054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "pongsil.v@gmail.com";
+			};
+			buildConfigurationList = B275B41F15949BAC0018A054 /* Build configuration list for PBXProject "hGridViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B275B41A15949BAC0018A054;
+			productRefGroup = B275B42615949BAC0018A054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B275B42415949BAC0018A054 /* hGridViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B275B42315949BAC0018A054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B275B43415949BAC0018A054 /* InfoPlist.strings in Resources */,
+				B275B43D15949BAC0018A054 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B275B42115949BAC0018A054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B275B43615949BAC0018A054 /* main.m in Sources */,
+				B275B43A15949BAC0018A054 /* AppDelegate.m in Sources */,
+				B275B44015949BAC0018A054 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B275B43215949BAC0018A054 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B275B43315949BAC0018A054 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B275B43B15949BAC0018A054 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B275B43C15949BAC0018A054 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B275B44115949BAC0018A054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B275B44215949BAC0018A054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B275B44415949BAC0018A054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hGridViewController/hGridViewController-Prefix.pch";
+				INFOPLIST_FILE = "hGridViewController/hGridViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B275B44515949BAC0018A054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hGridViewController/hGridViewController-Prefix.pch";
+				INFOPLIST_FILE = "hGridViewController/hGridViewController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B275B41F15949BAC0018A054 /* Build configuration list for PBXProject "hGridViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B275B44115949BAC0018A054 /* Debug */,
+				B275B44215949BAC0018A054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B275B44315949BAC0018A054 /* Build configuration list for PBXNativeTarget "hGridViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B275B44415949BAC0018A054 /* Debug */,
+				B275B44515949BAC0018A054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B275B41C15949BAC0018A054 /* Project object */;
+}
