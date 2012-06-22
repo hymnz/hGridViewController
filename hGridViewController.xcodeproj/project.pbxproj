@@ -22,14 +22,14 @@
 		B275B42915949BAC0018A054 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B275B42B15949BAC0018A054 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B275B42D15949BAC0018A054 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B275B43115949BAC0018A054 /* hGridViewController-Info.plist */ = {isa = PBXFileReference; path = "hGridViewController-Info.plist"; sourceTree = "<group>"; };
+		B275B43115949BAC0018A054 /* hGridViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hGridViewController-Info.plist"; sourceTree = "<group>"; };
 		B275B43315949BAC0018A054 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B275B43515949BAC0018A054 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B275B43715949BAC0018A054 /* hGridViewController-Prefix.pch */ = {isa = PBXFileReference; path = "hGridViewController-Prefix.pch"; sourceTree = "<group>"; };
-		B275B43815949BAC0018A054 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B275B43715949BAC0018A054 /* hGridViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hGridViewController-Prefix.pch"; sourceTree = "<group>"; };
+		B275B43815949BAC0018A054 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B275B43915949BAC0018A054 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B275B43C15949BAC0018A054 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B275B43E15949BAC0018A054 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		B275B43E15949BAC0018A054 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B275B43F15949BAC0018A054 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
